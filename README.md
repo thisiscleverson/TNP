@@ -1,0 +1,1 @@
+# test publish post with commands cli3
