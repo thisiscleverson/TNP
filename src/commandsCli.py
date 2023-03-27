@@ -6,7 +6,7 @@ from readFiles import ReadFile
 from tabnews import Client
 
 
-json_file = JsonFile('config_tbp.json')
+json_file = JsonFile('config_tnp.json')
 read_file = ReadFile()
 
 #create group
