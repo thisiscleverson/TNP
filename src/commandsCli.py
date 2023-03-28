@@ -40,7 +40,7 @@ def publish():
 
 
    try:
-      client = Client(email, password, use_preview_tabnews_host=True) #create login with tabnews.com.br
+      client = Client(email, password, use_preview_tabnews_host=False) #create login with tabnews.com.br
       valuesJson = json_file.readJsonFile()
       text = read_file.readFile(valuesJson['filename'])
 
